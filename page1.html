@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="page.css">
+
+</head>
+
+<body>
+
+    <table onsubmit="myfunc(event)">
+        <tr>
+            <td>Name<span>*</span></td>
+        </tr>
+        <tr>
+            <td><input type="text" id="f_name" name="fist_name" placeholder="First" size="45%" required></td>
+            <td><input type="text" id="l_name" name="last_name" pplaceholder="Last" size="45%" required></td>
+        </tr>
+
+        <tr>
+            <td>Date of Birth<span>*</span></td>
+        </tr>
+
+        <tr>
+            <td colspan="2"><input type="date" id="dob" name="date_of_birth" size="100%" required></td>
+        </tr>
+
+
+        <tr>
+            <td>Email<span>*</span></td>
+        </tr>
+        <tr>
+            <td colspan="2"><input type="mail" id="mail" name="mail" size="100%" required></td>
+        </tr>
+
+
+        <tr>
+            <td>Father's name<span>*</span></td>
+        </tr>
+        <tr>
+            <td><input type="text" id="f_fname" name="father_first_name" placeholder="First" size="45%" required></td>
+            <td><input type="text" id="f_lname" name="father_Last_name" placeholder="Last" size="45%" required></td>
+        </tr>
+
+
+        <tr>
+            <td>Mother's name<span>*</span></td>
+        </tr>
+
+        <tr>
+            <td><input type="text" id="m_fname" name="mother_first_name" placeholder="First" size="45%" required></td>
+            <td><input type="text" id="m_lname" name="mother_Last_name" placeholder="Last" size="45%" required></td>
+        </tr>
+
+
+
+        <tr>
+            <td>Gender<span>*</span></td>
+        </tr>
+        <tr>
+            <td><input type="radio" id="gender" name="gender" required>M</td>
+
+        </tr>
+
+        <tr>
+            <td><input type="radio" name="gender" required>F</td>
+        </tr>
+
+
+
+
+        <tr>
+            <td>Nationality<span>*</span></td>
+        </tr>
+        <tr>
+            <td colspan="2"><input type="text" id="nationality" name="nationality" size="100%" required></td>
+        </tr>
+
+
+
+        <tr>
+            <td>Home Address<span>*</span></td>
+        </tr>
+        <tr>
+            <td colspan="2"><input type="text" id="address" name="address" placeholder="Street Address" size="100%"
+                    required></td>
+        </tr>
+
+
+
+        <tr>
+
+            <td><input type="text" id="city" name="city" placeholder="City" size="45%" required></td>
+            <td><input type="text" id="country" name="country" placeholder="Country" size="45%" required></td>
+        </tr>
+
+
+
+        <tr>
+            <td>Telephone-Home<span>*</span></td>
+        </tr>
+
+        <tr>
+            <td colspan="2"><input type="tel" id="h_number" name="telephone_Home" placeholder="### ### ###"
+                    maxlength="10" size="100%" required></td>
+        </tr>
+
+
+
+
+        <tr>
+            <td>Telephone-Mobile<span>*</span></td>
+        </tr>
+
+        <tr>
+            <td colspan="2"><input type="tel" id="m_number" name="telephone_Mobile" placeholder="### ### ###"
+                    maxlength="10" size="100%" required></td>
+        </tr>
+
+    </table><br>
+
+
+
+    <footer><button onclick=" window.open('http://127.0.0.1:5500/page2.html','_self')">Save & Next</button></footer>
+
+</body>
+
+</html>

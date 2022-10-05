@@ -1,0 +1,35 @@
+ body {
+     margin: 5% 20%;
+ }
+
+ table {
+     background-color: rgb(204, 238, 238);
+     width: 80%;
+     padding: 2% 5%;
+     align-items: center;
+
+ }
+
+ table,
+ tr {
+     padding: 20px;
+ }
+
+ button {
+     color: rgba rgb(37, 34, 28);
+     background-color: rgb(85, 85, 211);
+     width: 150px;
+     height: 40px;
+
+
+
+ }
+
+ footer {
+     padding: 10px 60%;
+
+ }
+
+ span {
+     color: red;
+ }
